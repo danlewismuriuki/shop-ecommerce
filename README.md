@@ -51,19 +51,22 @@ This project implements a microservices architecture where each service is respo
 ### Development
 
 1. Clone the repository
+
 ```
-git clone https://github.com/nutcas3/shop-ecommerce.git
+git clone git@github.com:danlewismuriuki/shop-ecommerce.git
 
 cd shop-ecommerce
 ```
 
 2. Create the environment file
+
 ```
 cp .env.example .env
 # Edit .env with your configuration
 ```
 
 3. Start the development environment
+
 ```
 docker-compose -f docker-compose.dev.yml up
 ```
