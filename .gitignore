@@ -1,0 +1,66 @@
+# =================
+# Binaries & Build
+# =================
+bin/
+dist/
+*.exe
+*.out
+*.test
+
+# =================
+# Dependency directories
+# =================
+vendor/
+.terraform/
+
+# =================
+# Go / Rust workspace files
+# =================
+*.code-workspace
+**/Cargo.lock
+
+# =================
+# Environment / secrets
+# =================
+.env
+.env.local
+.env.*.local
+
+# =================
+# Logs
+# =================
+*.log
+
+# =================
+# OS files
+# =================
+.DS_Store
+Thumbs.db
+
+# =================
+# Docker
+# =================
+docker-compose.override.yml
+
+# =================
+# Terraform / Kubernetes
+# =================
+*.tfstate
+*.tfstate.backup
+
+# =================
+# Rust build artifacts
+# =================
+**/target/
+
+# =================
+# IDE / editor files
+# =================
+.vscode/
+.idea/
+*.swp
+
+# =================
+# Temporary / flycheck
+# =================
+**/flycheck*/
